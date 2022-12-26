@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+
+    <nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="/gambar/calla-lily.png" alt="Logo" width="40" height="40">
+          </a>
+        </div>
+      </nav>
+    <!-- sidebar -->
+
+    <div class="row">
+        <div class="col-3 h-75 position-absolute top-50 start-0 translate-middle-y">
+          <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-start rounded-start rounded-circle bg-secondary bg-opacity-50">
+            <nav class="nav nav-pills flex-column position-absolute top-50 start-50 translate-middle">
+                <div class="d-grid gap-5">
+                  <a class="btn bg-danger bg-opacity-50" href="home.html" role="button">Home</a>
+                  <a class="btn bg-danger bg-opacity-50" href="about.html" role="button">About</a>
+                  <a class="btn bg-danger bg-opacity-50" href="maskot.html" role="button">Maskot</a>
+                  <a class="btn bg-danger bg-opacity-50" href="kontak.html" role="button">Kontak</a>
+                </div>
+            </nav>
+          </nav>
+        </div>
+    </div>
+
+    <!-- content -->
+    <div class="container">
+      <div class="container-fluid">
+        <div class="card align-items-center bg-transparent border-0 col-9 offset-3 ">
+          <img src="/gambar/calla-lily.png" class="card-img-top h-25 w-25" alt="gambar" >
+          <div class="card-body">
+            <div id="carouseSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <p class="text-lg-center">Kebangkitan yang lahir kembali dalam keindahan dan kecantikan yang tiada tara</p>
+                </div>
+                <div class="carousel-item">
+                 <p class="text-lg-center ">Calla Ruby merupakan kelompok yang membuat project maskot dan mengelola informasi sistem jual beli tanaman.</p>
+                </div>
+                <div class="carousel-item">
+                  <p class="text-lg-center">Informasi yang diberikan berupa rangkaian maskot dan penyedia jasa jual beli tanaman hias khas Wonosobo.</p>
+                </div>
+              </div>
+              <div class="carousel-indicators mb-lg-auto">
+                <button type="button" data-bs-target="#carouseSlidesOnly" data-bs-slide-to="0" class="active btn-lg" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouseSlidesOnly" data-bs-slide-to="1" class="active btn-lg" aria-current="true" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouseSlidesOnly" data-bs-slide-to="2" class="active btn-lg" aria-current="true" aria-label="Slide 3"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+   
+    <nav class="navbar navbar-expand-lg fixed-bottom">
+      <div class="container-fluid">
+        <div class="col-md-4">
+          <a href="home.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <img src="/gambar/calla-lily.png" alt="logo" width="30px">
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Calla Ruby, Inc</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="#"><img src="/gambar/iconmonstr-twitter-4-240.png" alt="logo" width="30px"></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><img src="/gambar/iconmonstr-instagram-14-240.png" alt="logo" width="30px"></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><img src="/gambar/iconmonstr-facebook-4-240.png" alt="logo" width="30px"></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
